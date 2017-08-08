@@ -14,10 +14,10 @@ class Bicycle {
     }
         
     public void speedUp(int increment) {
-        speed + speed = increment;
+        speed = speed + increment;
     }
     public void applyBreak(int decrement) {
-        speed + speed = increment;
+        speed = speed - decrement;
         
 }
     void printStates (){
